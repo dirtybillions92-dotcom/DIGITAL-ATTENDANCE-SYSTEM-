@@ -1,2 +1,9 @@
 # DIGITAL-ATTENDANCE-SYSTEM-
-A C++ PROJECT FOR MANAGING STUDENT ATTENDANCE 
+A simple attendance management system implemented in C++.
+
+## Development Environment
+- VS Code
+- C++ Compiler
+
+## Author
+John Maglo 
