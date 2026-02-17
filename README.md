@@ -6,4 +6,4 @@ A simple attendance management system implemented in C++.
 - C++ Compiler
 
 ## Author
-John Maglo 
+John Maglo _ 01240472D
