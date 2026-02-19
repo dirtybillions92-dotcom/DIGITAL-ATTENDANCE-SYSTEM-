@@ -89,6 +89,7 @@ void markAttendance() {
     std::cout << "Is student present? (1/0): ";
     std::cin >> present;
     attendanceRecords.emplace_back(date, idx, present);
+    
 }
 
 void viewAttendance() {
@@ -96,3 +97,18 @@ void viewAttendance() {
         std::cout << "Date: " << a.date << ", Index: " << a.studentIndex << ", Present: " << (a.isPresent ? "Yes" : "No") << "\n";
     }
     }
+void markAttendance() {
+    std::string date, idx;
+    bool present;
+    std::cout << "Enter Date: ";
+    std::cin >> date;
+    std::cout << "Enter Student Index: ";
+    std::cin >> idx;
+    std::cout << "Is student present? (1/0): ";
+    std::cin >> present;
+    if (date.empty() || idx.empty()) {
+        std::cout << "Invalid input. Please try again.\n";
+        return;
+    }
+    attendanceRecords.emplace_back(date, idx, present);
+}
