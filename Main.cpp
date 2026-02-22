@@ -200,3 +200,17 @@ int main() {
     } while (choice != 6);
     return 0;
 }
+int main() {
+    loadData();
+    int choice;
+    do {
+        std::cout << "Attendance System\n";
+        std::cout << "1. Add Student\n2. View Students\n3. Mark Attendance\n4. View Attendance\n5. Generate Report\n6. Exit\n";
+        std::cin >> choice;
+        switch (choice) {
+            // ...
+        }
+    } while (choice != 6);
+    saveData();
+    return 0;
+}
