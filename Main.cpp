@@ -178,3 +178,12 @@ int main() {
     } while (choice != 6);
     return 0;
 }
+
+ int main() {
+    // Add sample data
+    students.emplace_back("S1", "John Maglo");
+    students.emplace_back("S2", "Jane Maglo");
+    attendanceRecords.emplace_back("2022-01-01", "S1", true);
+    attendanceRecords.emplace_back("2022-01-01", "S2", false);
+    // ...
+ }
